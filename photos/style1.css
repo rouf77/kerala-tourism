@@ -1,0 +1,204 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ff7f50; /* Change this to your desired hover color */
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main content styles */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro img {
+    max-width: 100%;
+    height: auto;
+}
+
+.useful-links {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.useful-links ul {
+    list-style: none;
+}
+
+.useful-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h4 {
+    margin: 15px 0;
+}
+
+.card p {
+    padding: 0 20px 20px;
+}
+
+.additional-content {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+}
+
+.additional-content h3 {
+    margin-bottom: 20px;
+}
+
+.additional-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.additional-content h2 {
+    margin-top: 20px;
+}
+
+.additional-content p {
+    margin-bottom: 20px;
+}
+
+.additional-content h4 {
+    margin-top: 20px;
+}
+
+.additional-content ul {
+    list-style: none;
+}
+
+.additional-content section {
+    margin-bottom: 20px;
+}
+
+.mapouter {
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.gmap_canvas {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+/* Facts section styles */
+div.W0urI ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+div.W0urI ul li {
+    margin-bottom: 10px;
+} body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .additional-content {
+    flex-basis: 300px; /* Set a fixed width for the additional content */
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none; /* Initially hide on small screens */
+  }
+/* Existing styles */
+
+/* Additional content style for small screens */
+@media only screen and (max-width: 600px) {
+    .additional-content {
+        background-color: #f0f0f0; /* Change background color for small screens */
+        padding: 20px; /* Add some padding for better readability */
+    }
+
+    .additional-content h3 {
+        color: #333; /* Change text color for small screens */
+    }
+
+    .additional-content p {
+        font-size: 14px; /* Adjust font size for small screens */
+    }
+
+    .additional-content img {
+        max-width: 100%; /* Make sure images don't overflow on small screens */
+        height: auto;
+    }
+
+    /* Add more styles as needed for the additional content */
+}
+
